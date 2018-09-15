@@ -40,7 +40,7 @@ class Common(Configuration):
 
     ALLOWED_HOSTS = ["*"]
     ROOT_URLCONF = 'login-rest.urls'
-    SECRET_KEY = os.getenv('DJANGO_SECRET_KEY')
+    SECRET_KEY = "rrdc1$x5#d(@s(&jb3+v+6@st1g995id&0psj6$sa37zu)b+pn%nll"
     WSGI_APPLICATION = 'login-rest.wsgi.application'
 
     # Email
